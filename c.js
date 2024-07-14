@@ -1,4 +1,4 @@
-var conn = new WebSocket('wss://sok.onrender.com');
+var conn = new WebSocket('wss://sockettest-dkws.onrender.com');
 conn.onopen = function(e) {
     console.log("Connection established!");
 };
